@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoApp", "DemoApp\DemoApp.csproj", "{D247A535-E548-4F89-ABA6-F221D2803305}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serializers", "Serializers\Serializers.csproj", "{586EBA0B-6B4A-4150-86D1-6978447D7015}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicGame", "BasicGame\BasicGame.csproj", "{FE942215-0A52-4666-90E5-6AD61D57FF7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameBenchmark", "GameBenchmark\GameBenchmark.csproj", "{267F6C46-D788-476B-A073-E07FB2A99532}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{557B50DF-6A9B-404E-B630-B9037D6082C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D247A535-E548-4F89-ABA6-F221D2803305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D247A535-E548-4F89-ABA6-F221D2803305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{586EBA0B-6B4A-4150-86D1-6978447D7015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{586EBA0B-6B4A-4150-86D1-6978447D7015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{586EBA0B-6B4A-4150-86D1-6978447D7015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{586EBA0B-6B4A-4150-86D1-6978447D7015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE942215-0A52-4666-90E5-6AD61D57FF7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE942215-0A52-4666-90E5-6AD61D57FF7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE942215-0A52-4666-90E5-6AD61D57FF7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE942215-0A52-4666-90E5-6AD61D57FF7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{267F6C46-D788-476B-A073-E07FB2A99532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{267F6C46-D788-476B-A073-E07FB2A99532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{267F6C46-D788-476B-A073-E07FB2A99532}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{267F6C46-D788-476B-A073-E07FB2A99532}.Debug|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{267F6C46-D788-476B-A073-E07FB2A99532} = {557B50DF-6A9B-404E-B630-B9037D6082C3}
+	EndGlobalSection
+EndGlobal
